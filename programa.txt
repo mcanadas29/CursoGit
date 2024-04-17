@@ -10,5 +10,20 @@ CAMBIO REALIZADO EN GIT HUB
 
 NUEVO CAMBIO LOCAL --> GITHUB
 
+Generar la llave publica/privada
 ssh-keygen -t rsa -b 4096 -C "email@usuario"
 
+Comprobar si el agente está activo
+eval $(ssh-agent -s)
+
+Añadir la Public Key al entorno
+situarnos en directorio $HOME
+ssh-add $HOME/.ssh/id-rsa <-- Que es la llave privada
+
+Añadir la Public Key en GitHub
+copia el contenido de la llave pública en GitHub en pestaña ssh añadir key
+comprobar el formato
+
+
+Cambiar la URL de origin para GitHub
+git remote set-url origin URL-CON-SSH (la que está en la pestaña de Github)
