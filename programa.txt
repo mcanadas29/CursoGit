@@ -10,4 +10,5 @@ CAMBIO REALIZADO EN GIT HUB
 
 NUEVO CAMBIO LOCAL --> GITHUB
 
+ssh-keygen -t rsa -b 4096 -C "email@usuario"
 
