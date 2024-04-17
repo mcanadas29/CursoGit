@@ -26,4 +26,4 @@ comprobar el formato
 
 
 Cambiar la URL de origin para GitHub
-git remote set-url origin URL-CON-SSH (la que está en la pestaña de Github)
+git remote set-url origin URL-CON-SSH (la que está en la pestaña SSH de Github)
